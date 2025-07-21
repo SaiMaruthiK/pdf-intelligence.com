@@ -1,4 +1,4 @@
-import fitz  # PyMuPDF
+import fitz  
 
 def extract_outline(pdf_path):
     doc = fitz.open(pdf_path)
